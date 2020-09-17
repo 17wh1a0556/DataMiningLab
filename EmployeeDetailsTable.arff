@@ -1,0 +1,17 @@
+%my data
+
+@relation employee
+
+@attribute employeeID numeric
+@attribute employeeName string
+@attribute dept {Marketing, Developer, Testing}
+@attribute phoneno numeric
+@attribute dateOfJoin date "yyyy-MM-dd" 
+@attribute task {completed, notCompleted}
+
+@data
+1, Shamini, Testing, 9494693235, "2010-10-2", completed
+2, Pooja, Marketing, 9874563258, "2015-5-1", completed
+3, Harshini, Developer, 9854785632, "2019-12-31", completed
+4, Harika, Marketing, 9874589621, "2016-3-15", notCompleted
+5, Tripura, Testing, 8547896325, "2018-9-5", completed
